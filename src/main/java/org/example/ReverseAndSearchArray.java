@@ -48,6 +48,8 @@ public class ReverseAndSearchArray {
         if(!searchedNumberFindIt){
             System.out.println("No hay apariciones del número indicado.");
         }
+
+        sc.close();
     }
 
     public static String arrayToString(int[] array){
